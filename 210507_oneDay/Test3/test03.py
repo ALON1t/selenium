@@ -5,7 +5,7 @@ import time
 from selenium.common.exceptions import NoAlertPresentException
 
 # 必须继承TestCase类
-class testCase1(unittest.TestCase):
+class testCase2(unittest.TestCase):
     # 测试固件 Test Fixture
     # 初始化  self代表testCase1的实例
     def setUp(self):
@@ -21,13 +21,13 @@ class testCase1(unittest.TestCase):
     # 方法 以test_开头：默认的去运行
     def test_baidu1(self):
         driver = self.driver
-        driver.find_element_by_id("kw").send_keys("肖战")
+        driver.find_element_by_id("kw").send_keys("王一博")
         driver.find_element_by_id("su").click()
         time.sleep(3)
 
     def test_baidu2(self):
         driver = self.driver
-        driver.find_element_by_link_text("新闻").click()
+        driver.find_element_by_link_text("hao123").click()
         time.sleep(3)
 
     # 不以test_开头的方法，如果没有调用该方法，则永远不会运行
@@ -39,6 +39,4 @@ class testCase1(unittest.TestCase):
             return False
         return True
     if __name__ == "__main__":
-        unittest.main(verbosity=0)
-
-
+        unittest.main(verbosity=1)
