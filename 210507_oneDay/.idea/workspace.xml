@@ -24,71 +24,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ttt1">
-    <configuration name="t2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="210507_oneDay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1/t2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="210507_oneDay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1/t3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="210507_oneDay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1/t4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test01.testCase1">
+    <configuration name="div_test_modal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="210507_oneDay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +37,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test2/ttt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test2/div_test_modal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +46,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ttt1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="upload_test_upload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="210507_oneDay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,22 +58,64 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test2/ttt1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test2/upload_test_upload.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test01.testCase1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="210507_oneDay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test01.testCase1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test01.testCase1.test_baidu1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="210507_oneDay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test01.testCase1.test_baidu1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test01.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="210507_oneDay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test3/test01.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ttt1" />
-        <item itemvalue="Python.ttt" />
-        <item itemvalue="Python.t4" />
-        <item itemvalue="Python.t2" />
-        <item itemvalue="Python.t3" />
+        <item itemvalue="Python tests.Unittests for test01.testCase1" />
+        <item itemvalue="Python tests.Unittests for test01.testCase1.test_baidu1" />
+        <item itemvalue="Python tests.Unittests in test01.py" />
+        <item itemvalue="Python.upload_test_upload" />
+        <item itemvalue="Python.div_test_modal" />
       </list>
     </recent_temporary>
   </component>
@@ -170,29 +149,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="265" y="186" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620352570582" />
-    <state width="538" height="172" key="GridCell.Tab.0.bottom" timestamp="1620712587413">
+    <state width="539" height="172" key="GridCell.Tab.0.bottom" timestamp="1620825878614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="538" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620712587413" />
-    <state width="538" height="172" key="GridCell.Tab.0.center" timestamp="1620712587413">
+    <state width="539" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620825878614" />
+    <state width="539" height="172" key="GridCell.Tab.0.center" timestamp="1620825878613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="538" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620712587413" />
-    <state width="538" height="172" key="GridCell.Tab.0.left" timestamp="1620712587413">
+    <state width="539" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620825878613" />
+    <state width="539" height="172" key="GridCell.Tab.0.left" timestamp="1620825878613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="538" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620712587413" />
-    <state width="538" height="172" key="GridCell.Tab.0.right" timestamp="1620712587413">
+    <state width="539" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620825878613" />
+    <state width="539" height="172" key="GridCell.Tab.0.right" timestamp="1620825878613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="538" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620712587413" />
+    <state width="539" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620825878613" />
     <state x="11" y="44" key="SettingsEditor" timestamp="1620352577913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="11" y="44" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620352577913" />
-    <state x="454" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1620709902630">
+    <state x="454" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1620820209261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="454" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1620709902630" />
+    <state x="454" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1620820209261" />
   </component>
 </project>
