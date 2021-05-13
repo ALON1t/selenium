@@ -24,7 +24,15 @@ class testCase2(unittest.TestCase):
         driver.find_element_by_id("kw").send_keys("王一博")
         driver.find_element_by_id("su").click()
         time.sleep(3)
+        print(driver.title)
 
+        # 断言
+        # self.assertEqual(driver.title,"王一博_百度搜索",msg="not equal!")
+        # self.assertNotEqual(driver.title, "百度搜索", msg="not equal!")
+        self.assertTrue(1!=2,msg="not equal!")  # 运行错误
+
+    # 忽略用例的执行   @unittest.skip("skipping")
+    @unittest.skip("skipping")
     def test_baidu2(self):
         driver = self.driver
         driver.find_element_by_link_text("hao123").click()

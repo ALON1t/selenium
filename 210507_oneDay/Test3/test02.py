@@ -2,6 +2,10 @@ import unittest
 from Test3 import test01
 from Test3 import test03
 
+import os,sys
+import HTMLTestRunner
+import time
+
 # 测试套件
 def createSuite():
     suite = unittest.TestSuite()
