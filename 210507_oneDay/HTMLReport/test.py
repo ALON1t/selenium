@@ -1,8 +1,6 @@
 # 测试报告
 
 import unittest
-from Test3 import test01
-from Test3 import test03
 
 import os,sys
 import HTMLTestRunner
@@ -19,11 +17,12 @@ if __name__ == "__main__":
     # 获取当前脚本问价所在的文件路径  0-》当前文件所在路径
     curpath = sys.path[0]
     print(curpath)
-    # 不存在就创建一个
+    # 不存在就创建一个resultReport 文件夹
     if not os.path.exists("/resultReport"):
         os.mkdir(curpath+"/resultReport")
     # 根据时间命名  区分不同文件
     # 格式化时间的函数  time.strftime()
+    # 转化为当地的时间，如北京时间 time.localtime()
     # 年月日 时分秒  时间戳
     now = time.strftime("%Y-%m-%d-%H %M %S",time.localtime(time.time()))
     filename = curpath+"/resultReport/"+now+"-"+"resultReport.html"
@@ -31,7 +30,8 @@ if __name__ == "__main__":
     with open(filename,'wb') as fp:
         # title=u"测试报告"  u可以防止乱码 UTF-8
         # verbosity=2  测试用例的详细程度
-        runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"测试报告",description=u"测试用例执行的情况/结果",verbosity=2)
+        runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"测试报告",
+                                               description=u"测试用例执行的情况/结果",verbosity=2)
         # 测试套件
         suite = createSuite()
         # 执行
